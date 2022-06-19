@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  /* color: saddlebrown; */
+}
+body {
+  background-color: #F7CD75;
+}
+
+h1{
+  margin: 0;
+}
+h2{
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.criptovalute {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 850px;
+  height: 480px;
+  box-shadow:  0 0 8px black;
+
+}
+
+.my-wallet {
+  border-radius: 5px;
+  overflow-y: hidden;
+  width: 330px;
+  height: 480px;
+  padding: 50px 30px;
+  background-color: #F2F2F2;
+}
+
+.my-wallets-title {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.my-wallet button {
+  margin-left: 115px;
+  vertical-align: middle;
+}
+
+.wallets {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  
+}
+
+.wallets li {
+  padding: 5px;
+  background-color: #fff;
+  width: 250px;
+  height: 125px;
+  margin-bottom: 30px;
+  color: #808A95;
+  font-size: 18px;
+  border: 2px solid #e1e9f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wallets li time {
+  font-size: 14px;
+}
+
+.wallets img {
+  margin-bottom: 15px;
+}
+/*  */
+.balance {
+  padding: 50px 30px 5px;
+}
+
+.balance-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: #e5e3e3 3px solid;
+}
+
+.balance-header h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-right: 190px;
+}
+
+.balance-header span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.balance-button {
+  height: 22px;
+  border: 1px solid rgb(205, 205, 205);
+  padding: 1px 2px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.balance-button img {
+  vertical-align: middle;
+  width: 15px;
+}
+
+.balance ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.balance-title {
+  display: flex;
+  align-items: center;
+}
+
+.main-work h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.main-work span {
+  color: rgb(164, 164, 164);
+  font-size: 13px;
+
+}
+
+.price {
+  font-size: 16px;
+  color: #8696C6;
+  font-weight: bold;
+}
